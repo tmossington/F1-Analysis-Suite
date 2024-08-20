@@ -13,14 +13,10 @@ f1.Cache.enable_cache('cache')
 # Setup plotting
 plotting.setup_mpl()
 
+# import data for Belgium 2024
 
-def load_session(year, track, session):
-    session = f1.get_session(year, track, session)
-    session.load()
-    print(f"Session data for {year} {track} {session} loaded successfully.")
-    return session
-
-session = load_session(2024, 'Belgium', 'Q')
+session = f1.get_session(2024, 'Belgium', 'Q')
+session.load()
 
 # Get the fastest lap for the two comparisons
 fast_norris = session.laps.pick_driver('NOR').pick_fastest()
@@ -99,4 +95,3 @@ cbar.set_ticklabels(['NOR', 'PIA'])
 plt.savefig(f"2024_nor_pia_q.png", dpi=300)
 
 plt.show()
-
