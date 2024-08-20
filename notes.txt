@@ -1,0 +1,9 @@
+To add:
+
+1. Add break and throttle points
+
+2. Add mouse over track to show current time and other data at that point in the track
+
+3. dynamic driver selection
+
+4. Dynamic color assignment based on team, or based on secondary colors for intra-team comparisons.
