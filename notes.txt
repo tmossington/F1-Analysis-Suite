@@ -7,3 +7,12 @@ To add:
 3. dynamic driver selection
 
 4. Dynamic color assignment based on team, or based on secondary colors for intra-team comparisons.
+
+
+Modes to add:
+
+Lap telemetry
+Drivers Tyre Performance
+Predicted Race position
+Fastest technically possible lap time (fast sector for each sector)
+Fast Lap minisectors
